@@ -2,6 +2,12 @@
 
 Web Components with CSS
 
+## NPM
+
+```bash
+yarn add @elex-project/persona
+```
+
 ## What I did
 
 ### 프로젝트 만들기

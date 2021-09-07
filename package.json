@@ -2,9 +2,15 @@
   "name": "@elex-project/persona",
   "version": "1.0.0",
   "description": "Persona Web Components and CSS",
+  "keywords": ["web-components"],
+  "homepage": "https://www.elex-project/",
   "main": "./src/index.js",
   "author": "Elex",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elex-project/persona.git"
+  },
   "publishConfig": {
     "registry": "https://repository.elex-project.com/repository/npm-personal",
     "access": "public"
