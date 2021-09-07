@@ -1,4 +1,10 @@
-## 프로젝트 만들기
+# Persona
+
+Web Components with CSS
+
+## What I did
+
+### 프로젝트 만들기
 
 ```bash
 yarn init
@@ -6,13 +12,13 @@ yarn add webpack webpack-cli --dev
 yarn webpack-cli init
 ```
 
-## Lit
+### Lit
 
 ```bash
 yarn add lit
 ```
 
-## tsconfig.json
+### tsconfig.json
 
 ```json
 "compilerOptions": {
@@ -23,10 +29,16 @@ yarn add lit
   }
 ```
 
-## Storybook
+### Storybook
 
 ```bash
 yarn add sb --dev
 yarn sb init
 yarn storybook
 ```
+
+---
+
+developed by Elex
+
+https://www.elex-project.com/
