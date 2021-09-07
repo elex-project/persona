@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Webpack App</title>
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+		/>
+	<script defer src="main.js"></script></head>
+	<body>
+		<persona-layout>
+			<persona-app-bar slot="header" heading="Title!"></persona-app-bar>
+			<div slot="nav">Nav</div>
+			<div slot="main">
+				<persona-flow-layout>
+					<div
+						data-width="4"
+						style="background-color: aquamarine; text-align: center"
+					>
+						A
+					</div>
+				</persona-flow-layout>
+				<persona-button primary onclick="console.log('clicked')"
+					>Click me</persona-button
+				>
+			</div>
+		</persona-layout>
+	</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "module": "esnext",
+    "target": "es6",
+    "lib":["es6", "dom"],
+    "allowJs": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true
+  },
+  "files": ["./src/index.ts"]
+}
