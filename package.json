@@ -46,7 +46,6 @@
     "watch": "webpack --watch",
     "serve": "webpack serve",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
-    "publish": "yarn publish"
+    "build-storybook": "build-storybook"
   }
 }

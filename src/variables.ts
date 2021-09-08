@@ -5,6 +5,7 @@ export const Variables = {
     navWidth: 240,
     breakPointMobile: 600,
     breakPointTablet: 950,
+    breakPointDesktop: 1024
 };
 
 export const Colors = {

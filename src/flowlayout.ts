@@ -1,5 +1,7 @@
 import {LitElement, html, css} from 'lit';
 import {customElement, property} from 'lit/decorators.js';
+import {classMap} from 'lit/directives/class-map.js';
+
 import {Variables} from './variables';
 
 
@@ -8,7 +10,9 @@ import {Variables} from './variables';
  */
 @customElement('persona-flow-layout')
 export class FlowLayout extends LitElement {
-    
+    @property({type:Boolean})
+    fullWidth? = false;
+
     static styles = css`
     :host{
         margin:0 auto; padding:0 24px; border:0;
@@ -16,6 +20,11 @@ export class FlowLayout extends LitElement {
         display: flex;
         flex-flow: row;
         flex-wrap: wrap;
+        max-width: ${Variables.breakPointDesktop}px
+    }
+    :host(.full-width){
+        padding:0;
+        max-width:inherit;
     }
     ::slotted(*){
         width: 100%;

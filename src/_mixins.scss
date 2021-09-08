@@ -1,0 +1,6 @@
+@mixin shadow($i) {
+	//box-shadow: 0 #{$i*1.25}px #{$i*1.2}px #{$i*0.2}px $default-shadow-color;
+	box-shadow: 0 #{$i}px #{$i}px 0 rgba(0, 0, 0, 0.14),
+		0 #{$i * 1.5}px #{$i/2}px -#{$i}px rgba(0, 0, 0, 0.2),
+		0 #{$i/2}px #{$i * 2.5}px 0 rgba(0, 0, 0, 0.12);
+}

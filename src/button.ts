@@ -9,7 +9,8 @@ import {Variables, Colors} from './variables';
 @customElement('persona-button')
 export class Button extends LitElement {
 
-  static styles = css `
+  static styles = [
+      css `
     :host {
 
     }
@@ -36,7 +37,7 @@ export class Button extends LitElement {
     button.raised{
 
     }
-  `;
+  `];
 
   @property({type:Boolean})
   primary? = false;
