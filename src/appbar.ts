@@ -26,6 +26,7 @@ h1 {
   @property()
   heading? = "Heading";
 
+  // todo add tailing extra buttons
   protected render() {
       return html`<h1>${this.heading}</h1>
 `;
